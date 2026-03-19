@@ -1,5 +1,9 @@
 <template>
   <div class="form-container">
+
+    <div class="mobile-logo">
+        <img src= "../assets/brand_logo.png" alt="logo" class="mobile-logo-img" />
+    </div>
     <h1 class="welcome-title">Welcome Back</h1>
     <p class="welcome-subtitle">Enter your email address and password to access your account.</p>
 
@@ -262,5 +266,22 @@ export default {
 
 .signup-link:hover {
   opacity: 0.75;
+}
+
+.mobile-logo {
+  display: none;
+  flex-direction: column;
+  align-items: center;
+}
+
+.mobile-logo-img {
+  width: 200px;
+  height: 150px;
+}
+
+@media (max-width: 768px) {
+  .mobile-logo {
+    display: flex;
+  }
 }
 </style>

@@ -2,21 +2,15 @@
   <div class="left-panel">
     <div class="brand">
       <div class="logo">
-        <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <circle cx="24" cy="12" r="8" fill="#7B2FBE" opacity="0.85"/>
-          <circle cx="14" cy="28" r="7" fill="#F5A623" opacity="0.9"/>
-          <circle cx="34" cy="28" r="7" fill="#7B2FBE" opacity="0.6"/>
-          <path d="M24 20 L14 28 L24 36 L34 28 Z" fill="white" opacity="0.3"/>
-        </svg>
+        <img src="../assets/brand_logo.png" alt="Logo" class="logo-img" />
       </div>
-      <span class="brand-name">Team Achieve</span>
     </div>
 
     <div class="image-container">
       <div class="image-placeholder">
         <img
-          src="https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=600&q=80"
-          alt="Team celebrating"
+          src="../assets/brand_image.png"
+          alt="Brand image"
           class="hero-image"
         />
       </div>
@@ -49,12 +43,6 @@ export default {
   align-items: center;
   gap: 10px;
   margin-bottom: 32px;
-}
-
-.brand-name {
-  font-weight: 600;
-  font-size: 16px;
-  color: #1a1a2e;
 }
 
 .image-container {
@@ -97,14 +85,27 @@ export default {
   line-height: 1.5;
 }
 
+.logo-img {
+  width: 170px;
+  height: 100px;
+}
+
 @media (max-width: 768px) {
   .left-panel {
-    width: 100%;
-    padding: 24px;
+    display: none
+  }
+
+  .image-container {
+    display: none;
+  }
+
+  .left-footer {
+    display: none;
   }
 
   .hero-image {
     height: 220px;
   }
+  
 }
 </style>
