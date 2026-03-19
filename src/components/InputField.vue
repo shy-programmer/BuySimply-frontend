@@ -94,7 +94,7 @@ export default {
 }
 
 .field-input:focus {
-  border-color: #7B2FBE;
+  border-color: #61227D;
 }
 
 .field-input.input-error {
@@ -117,7 +117,7 @@ export default {
 }
 
 .toggle-password:hover {
-  color: #7B2FBE;
+  color: #61227D;
 }
 
 .error-text {

@@ -142,7 +142,7 @@ export default {
   font-family: 'Playfair Display', serif;
   font-size: 32px;
   font-weight: 700;
-  color: #7B2FBE;
+  color: #61227D;
   text-align: center;
   margin-bottom: 10px;
 }
@@ -177,7 +177,7 @@ export default {
 .checkbox {
   width: 16px;
   height: 16px;
-  accent-color: #7B2FBE;
+  accent-color: #61227D;
   cursor: pointer;
 }
 
@@ -189,7 +189,7 @@ export default {
 .forgot-password {
   font-size: 14px;
   font-weight: 600;
-  color: #7B2FBE;
+  color: #61227D;
   text-decoration: none;
   transition: opacity 0.2s;
 }
@@ -210,7 +210,7 @@ export default {
 .sign-in-btn {
   width: 100%;
   padding: 14px;
-  background: #7B2FBE;
+  background: #61227D;
   color: #fff;
   border: none;
   border-radius: 8px;
@@ -259,7 +259,7 @@ export default {
 
 .signup-link {
   font-weight: 700;
-  color: #7B2FBE;
+  color: #61227D;
   text-decoration: none;
   transition: opacity 0.2s;
 }

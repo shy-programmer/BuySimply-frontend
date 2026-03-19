@@ -67,7 +67,7 @@ export default {
 .company-title {
   font-weight: 700;
   font-size: 20px;
-  color: #7B2FBE;
+  color: #61227D;
   margin-bottom: 6px;
 }
 
