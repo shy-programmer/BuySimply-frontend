@@ -32,17 +32,10 @@ export default {
 <style scoped>
 .left-panel {
   width: 42%;
-  background: #f3eeff;
+  background: #F8EAFF;
   display: flex;
   flex-direction: column;
   padding: 32px;
-}
-
-.brand {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-  margin-bottom: 32px;
 }
 
 .image-container {
@@ -62,14 +55,13 @@ export default {
 
 .hero-image {
   width: 100%;
-  height: 320px;
-  object-fit: cover;
+  height: 300px;
   display: block;
 }
 
 .left-footer {
   text-align: center;
-  padding-top: 24px;
+  padding-top: 20px;
 }
 
 .company-title {
@@ -87,7 +79,7 @@ export default {
 
 .logo-img {
   width: 170px;
-  height: 100px;
+  height: 80px;
 }
 
 @media (max-width: 768px) {
@@ -101,10 +93,6 @@ export default {
 
   .left-footer {
     display: none;
-  }
-
-  .hero-image {
-    height: 220px;
   }
   
 }
